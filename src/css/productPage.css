@@ -1,0 +1,243 @@
+.breadcrumb {
+  font-size: 12px;
+  color: #a8a8b5;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.breadcrumb a {
+  color: #a8a8b5;
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.breadcrumb span {
+  color: #7a7a87;
+}
+
+.product-page {
+  background: #ffffff05;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.product-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 32px;
+}
+
+.product-gallery {
+  /*background: radial-gradient(circle at top, #ffffff, #ffffff05);*/
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-gallery-main img {
+  max-width: 100%;
+  max-height: 420px;
+  border-radius: 16px;
+  object-fit: contain;
+  background: #020208;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-meta-top {
+  font-size: 12px;
+  color: #a0a0b5;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.product-condition {
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.product-category {
+  text-align: right;
+}
+
+.product-title-large {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/*.product-tags-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 4px;
+}*/
+.product-badge-mrg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product-price-box {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #ffffff04;
+}
+.price-main-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.product-price-large {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+}
+.badge-promo {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(46, 204, 113, 0.12);
+  color: #2ecc71;
+}
+.price-subline {
+  font-size: 12px;
+  color: #a8a8b5;
+  margin-top: 4px;
+}
+
+/* BADGES */
+.badge-lojaoficial {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(46, 104, 204, 0.12);
+  color: #49a7ff;
+}
+.badge-entregafull {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(188, 46, 204, 0.12);
+  color: #f049ff;
+}
+.badge-entregagratis {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(46, 188, 204, 0.12);
+  color: #49ffff;
+}
+.badge-entregafrete {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(199, 204, 46, 0.12);
+  color: #fff649;
+}
+
+.btn-buy {
+  margin-top: 16px;
+  border-radius: 999px;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 18px;
+  color: #050509;
+  transition: transform 0.06s ease, box-shadow 0.06s ease, filter 0.06s ease;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.btn-buy:hover {
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+}
+.btn-buy img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.comprar-linkexterno {
+    font-size: 15px;
+    color: gray;
+}
+
+.product-extra-info {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #c0c0d0;
+}
+.product-extra-info p {
+  margin: 3px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.product-extra-info i {
+  font-size: 16px;
+}
+
+.product-description-box {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid #ffffff25;
+}
+.product-description-box h2 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+.product-description-box p {
+  font-size: 14px;
+  color: #d0d0dd;
+  line-height: 1.5;
+}
+
+/* override leve nas tags já existentes, pra encaixar aqui também */
+.product-tags-line .tag {
+  font-size: 11px;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.product-related-box {
+  margin-top: 32px;
+}
+.product-related-box h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+.product-related-box .cards {
+  /* já usa o grid .cards existente; aqui só garante espaçamento */
+  gap: 16px;
+}
+
+.c-click {
+    cursor: pointer;
+    padding: 6px;
+}
+.c-click:hover {
+    background-color: #ffffff23;
+}
+
+@media (max-width: 860px) {
+  .product-main {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .product-gallery {
+    order: 1;
+  }
+  .product-info {
+    order: 2;
+  }
+}

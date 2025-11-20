@@ -1,0 +1,48 @@
+.c-titulo {
+    margin-bottom: 22px;
+}
+.c-click {
+    cursor: pointer;
+    padding: 6px;
+}
+.c-click:hover {
+    background-color: #ffffff23;
+}
+
+.c-blackfriday {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px rgb(22, 22, 22) dashed;
+}
+
+.c-11-11 {
+    background-color: rgb(17, 0, 20);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px rgb(45, 0, 44) dashed;
+}
+
+.c-12-12 {
+    background-color: rgb(0, 18, 20);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px rgb(0, 42, 45) dashed;
+}
+
+.c-anonovo {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px rgb(82, 82, 82) dashed;
+}
+
+.c-descontao {
+    background-color: rgb(0, 18, 11);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px rgb(0, 63, 54) dashed;
+}
+.c-descontao .titleNow {
+    color: rgb(81, 255, 203);
+}

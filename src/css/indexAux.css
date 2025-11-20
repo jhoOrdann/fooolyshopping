@@ -1,0 +1,123 @@
+.divListaProdutos {
+  margin-top: 0px;
+}
+.divListaProdutosNw {
+  margin-top: 35px;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 11px;
+}
+
+.tag {
+  padding: 5px 8px;
+  border-radius: 999px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tag-delivery {
+  background: rgba(55, 120, 2, 0.219);
+}
+
+.tag-delivery-add {
+  background: rgba(255, 255, 255, 0.219);
+}
+
+.tag-official {
+  background: rgba(88,101,242,0.2);
+  color: rgb(182, 206, 255);
+}
+
+.tag-promo {
+  background: rgba(46, 204, 113, 0.15);
+  color: #2ecc71;
+  font-size: 13px;
+  border-radius: 999px;
+  padding: 4px;
+}
+
+.tag-maisvendido {
+  background: rgba(204, 107, 46, 0.15);
+  color: #ff9350;
+  font-size: 23px;
+  border-radius: 999px;
+  padding: 8px;
+}
+
+.tag-roupasnoprecinho {
+  background: rgba(46, 143, 204, 0.15);
+  color: #50b9ff;
+  font-size: 23px;
+  border-radius: 999px;
+  padding: 8px;
+}
+
+.vid-list .product-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.vid-list .product-desc {
+  font-size: 13px;
+  color: #c5c5d0;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-desc span.ler-mais {
+  color: #ff751f;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.vid-list .product-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.vid-list .preco {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn-primary {
+  border-radius: 999px;
+  padding: 8px 14px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.m-p {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.m-g {
+  margin-top: 8px;
+}
+
+.spin {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
