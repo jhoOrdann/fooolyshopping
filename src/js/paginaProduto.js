@@ -2,7 +2,7 @@
 function mapDeliveryTag(p) {
   if (p.deliveryType === 'full') return `<span class="badge-entregafull"><i class="ri-flashlight-fill"></i> Entrega Full</span>`;
   if (p.deliveryType === 'gratis') return `<span class="badge-entregagratis"><i class="ri-gift-2-fill"></i> Entrega Grátis</span>`;
-  if (p.deliveryType === 'frete') return `<span class="badge-entregafrete"><i class="ri-money-dollar-circle-fill"></i> Frete adicional</span>`;
+  if (p.deliveryType === 'frete') return `<span class="badge-entregafrete"><i class="ri-money-dollar-circle-fill"></i> Opções de envios adicionais</span>`;
   return '';
 }
 
@@ -260,6 +260,11 @@ async function loadProduct() {
             ${delivery ? `<p>${delivery}</p>` : ''}
             ${p.manufactory ? `<p style="margin-top: 15px;"><i class="ri-store-2-fill"></i> Vendido por: ${p.manufactory}</p>` : ''}
             <p><i class="ri-shield-check-fill"></i> Compra segura no(a) ${p.marketplace || ''}</p>
+            <p>
+              <a class="alinksrp" href="https://forms.gle/uZV88HDXwhha4UNd7" rel="noopener norefferer">
+                <i class="ri-spam-fill"></i> Encontrei um problema
+              </a>
+            </p>
           </div>
         </div>
       </div>

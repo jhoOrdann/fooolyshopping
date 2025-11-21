@@ -1,12 +1,12 @@
 function mapDeliveryTag(p) {
     if (p.deliveryType === 'full') {
-        return `<span class="tag tag-delivery"><i class="ri-flashlight-fill"></i> Full</span>`;
+        return `<span class="tag tag-delivery"><b><i class="ri-flashlight-fill"></i> Full</b></span>`;
     }
     if (p.deliveryType === 'gratis') {
-        return `<span class="tag tag-delivery-add" title="Talvez seja necessário selecionar uma opção de entrega."><i class="ri-box-3-fill"></i></span>`;
+        return `<span class="tag tag-delivery-free"><i class="ri-box-3-fill"></i> Envio Grátis</span>`;
     }
     if (p.deliveryType === 'frete') {
-        return `<span class="tag tag-delivery-add" title="Talvez seja necessário selecionar uma opção de entrega."><i class="ri-box-3-fill"></i></span>`;
+        return `<span class="tag tag-delivery-add" title="Talvez seja necessário selecionar uma opção de entrega."><i class="ri-box-3-fill"></i> Conferir envio</span>`;
     }
     return '';
 }
@@ -46,8 +46,9 @@ function officialTag(p) {
                 <div class="product-price-row">
                     <span class="preco">R$${p.price}</span>
                 </div>
-                <p class="m-g">${promo} ${delivery}</p>
+                <p class="m-g">${promo}</p>
                 <p>${marketplacelogo}</p>
+                <p class="m-gb">${delivery}</p>
             </div>
         `;
     }

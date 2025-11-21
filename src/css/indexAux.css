@@ -21,7 +21,13 @@
 }
 
 .tag-delivery {
+  background: #009d9b38;
+  color: #00ffc8;
+}
+
+.tag-delivery-free {
   background: rgba(55, 120, 2, 0.219);
+  color: #2ecc71;
 }
 
 .tag-delivery-add {
@@ -52,6 +58,22 @@
 .tag-roupasnoprecinho {
   background: rgba(46, 143, 204, 0.15);
   color: #50b9ff;
+  font-size: 23px;
+  border-radius: 999px;
+  padding: 8px;
+}
+
+.tag-technoprecinho {
+  background: rgba(60, 60, 60, 0.15);
+  color: #aaaaaa;
+  font-size: 23px;
+  border-radius: 999px;
+  padding: 8px;
+}
+
+.tag-casapvnoprecinho {
+  background: rgba(255, 132, 0, 0.15);
+  color: #ffb847;
   font-size: 23px;
   border-radius: 999px;
   padding: 8px;
@@ -106,6 +128,15 @@
 
 .m-g {
   margin-top: 8px;
+}
+
+.m-gb {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#prod-container {
+  color: #fff;
 }
 
 .spin {
